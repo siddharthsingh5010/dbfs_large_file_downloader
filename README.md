@@ -5,6 +5,8 @@ A simple GUI tool (for macOS and Windows) to connect to a Databricks workspace a
 
 This tool supports both **token-based** and **external browser-based** authentication, and provides an easy interface to specify the DBFS path and local destination.
 
+![App Screenshot](screenshot.png)
+
 ---
 
 ## ✨ Features
