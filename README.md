@@ -23,7 +23,7 @@ This tool supports both **token-based** and **external browser-based** authentic
 You can use the standalone apps:
 
 - **Windows**: `Databricks_DBFS_Downloader.exe`
-- **macOS**: `Databricks_DBFS_Downloader.zip`
+- **macOS**: `Databricks_DBFS_Downloader.app`
 
 > ✅ No need to install Python or dependencies — just run the app directly.
 
@@ -63,6 +63,20 @@ python dbfs_downloader.py
 - Make sure the destination file path is valid and writable on your system.
 
 ---
+
+
+### 🍎 macOS Security Note
+
+If you're using the **macOS app**, you may see a warning like:
+
+> “App can’t be opened because it is from an unidentified developer.”
+
+To allow it to run:
+
+1. Right-click the `.app` file and choose **Open**
+2. Confirm the security prompt
+3. (Optional) Go to **System Preferences → Security & Privacy → General** and click **"Allow Anyway"**
+
 
 ## 📬 Contact
 
